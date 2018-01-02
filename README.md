@@ -24,9 +24,12 @@ Assumptions based on NOAA input data:
 * Humidity is parsed as a 1- or 2-digit number representing relative humidity in percentage
 
 
-##Sources
+## Sources
+
 NOAA weather data files
+
 ftp://ftp.ncdc.noaa.gov/pub/data/asos-fivemin/6401-2006/
 
 Solar panel performance data
+
 https://www.nrel.gov/grid/solar-power-data.html
