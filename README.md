@@ -1,5 +1,5 @@
 # solar_panel_model
-Training a model to predict solar panel intensity based on weather data. Check out solar_regression.ipynb for the full walkthrough.
+Training a model to predict solar panel intensity based on local weather data. See solar_regression.ipynb for the full tour. 
 
 Weather data inputs:
 
