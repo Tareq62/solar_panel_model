@@ -3,10 +3,10 @@ Training a model to predict solar panel intensity based on weather data.
 
 Weather data inputs:
 
-* Temperature (Celsius * 1000)
-* Visibility (range from 1-10 miles)
+* Temperature (Kelvin)
+* Hours of daylight
 * Humidity
-* Elevation
+* Precipitation
 * Theoretical solar intensity, depending on:
     * Latitude
     * Longitude
@@ -15,8 +15,8 @@ Weather data inputs:
 
 Output:
 
-* Predicted solar intensity
-* Error score compared to solar panel performance data
+* Predicted solar intensity (MW)
+* Error score compared to actual solar panel data
 
 Assumptions based on NOAA input data:
 * Temperature is in Celsius * 1000, parsed as first 3- or 4-digit number ending in "00"
@@ -28,7 +28,7 @@ Assumptions based on NOAA input data:
 
 NOAA weather data files
 
-ftp://ftp.ncdc.noaa.gov/pub/data/asos-fivemin/6401-2006/
+ftp://ftp.ncdc.noaa.gov/pub/data/asos-fivemin/6401-2006
 
 Solar panel performance data
 
