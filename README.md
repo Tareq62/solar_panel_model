@@ -2,7 +2,7 @@
 
 Training a model to predict solar panel intensity based on local weather data. 
 
-See solar_regression.ipynb for the full tour: https://github.com/Tareq62/solar_panel_model/blob/master/solar_regression.ipynb
+See solar_polynomial_regression.ipynb for the full tour: https://github.com/Tareq62/solar_panel_model/blob/master/solar_polynomial_regression.ipynb
 
 Weather data inputs:
 
