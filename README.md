@@ -1,12 +1,12 @@
 # solar_panel_model
 
-Training a model to predict solar panel intensity based on local weather data. 
+Training a polynomial regression model to predict solar panel intensity based on local weather data. 
 
 See the full tour here: https://github.com/Tareq62/solar_panel_model/blob/master/solar_polynomial_regression.ipynb
 
 Weather data inputs:
 
-* Temperature (Kelvin)
+* Temperature
 * Hours of daylight
 * Humidity
 * Precipitation
